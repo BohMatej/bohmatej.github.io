@@ -1,0 +1,11 @@
+{
+  "posts": [
+    {
+      "filename": "example-post.md",
+      "title": "Example Blog Post",
+      "date": "2024-01-15",
+      "excerpt": "This is an example blog post to demonstrate the blog functionality."
+    }
+  ]
+}
+

@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Matej Macula - Home</title>
+  <title>Blog - Matej Macula</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked@11.1.1/marked.min.js"></script>
 </head>
 <body>
   <nav>
@@ -21,17 +22,12 @@
   </nav>
 
   <main>
-    <section class="hero">
-      <div class="container">
-        <h1>Hello, I'm Matej Macula</h1>
-        <p>Welcome to my personal website. Here you can find information about my projects, read my blog posts, and get in touch with me.</p>
-      </div>
-    </section>
-
     <section>
       <div class="container">
-        <h2 class="section-title">About</h2>
-        <p>This is a placeholder for your introduction. Update this section with information about yourself, your background, and what you do.</p>
+        <h1 class="section-title">Blog</h1>
+        <div id="blog-container">
+          <!-- Blog content will be loaded here by blog.js -->
+        </div>
       </div>
     </section>
   </main>
@@ -43,5 +39,7 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
 </body>
 </html>
+
