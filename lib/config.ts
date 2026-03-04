@@ -14,25 +14,26 @@ export const siteConfig: SiteConfig = {
   },
   projects: [
     {
-      id: 'portfolio-template',
-      name: 'Portfolio Template',
-      description: 'A polished personal website starter kit built with Next.js.',
-      url: 'https://matejmacula.com',
-      repoUrl: 'https://github.com/your-handle/portfolio-template',
-      tags: ['Next.js', 'TypeScript', 'Design'],
-      embed: { enabled: true, url: 'https://matejmacula.com', height: 360 },
-    },
-    {
-      id: 'api-tooling',
-      name: 'API Tooling',
-      description: 'Command-line utilities for schema validation and API workflows.',
-      url: 'https://example.org',
-      repoUrl: 'https://github.com/your-handle/api-tooling',
-      tags: ['Node.js', 'CLI'],
-      embed: { enabled: false },
-    },
+      id: 'mhdle',
+      name: 'MHDle: a public transit guessing game',
+      description: 'Based on subwaydle.com, MHDle is a guessing game based on Bratislava\'s public transit network.',
+      url: 'https://mhdle.matejmacula.com',
+      repoUrl: 'https://github.com/bohmatej/csia',
+      tags: ['python', 'flask', 'sqlite3', 'javascript'],
+      embed: { enabled: true, url: 'https://mhdle.matejmacula.com', height: 360 },
+    }
+    //,
+    // {
+    //   id: 'api-tooling',
+    //   name: 'API Tooling',
+    //   description: 'Command-line utilities for schema validation and API workflows.',
+    //   url: 'https://example.org',
+    //   repoUrl: 'https://github.com/your-handle/api-tooling',
+    //   tags: ['Node.js', 'CLI'],
+    //   embed: { enabled: false },
+    // },
   ],
-  spotlightProjectId: 'portfolio-template',
+  spotlightProjectId: 'mhdle',
 };
 
 export function getSpotlightProject(projects: Project[], spotlightProjectId: string): Project | null {
