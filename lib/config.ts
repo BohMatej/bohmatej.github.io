@@ -15,7 +15,7 @@ export const siteConfig: SiteConfig = {
   projects: [
     {
       id: 'mhdle',
-      name: 'MHDle: a public transit guessing game',
+      name: 'MHDle',
       description: 'Based on subwaydle.com, MHDle is a guessing game based on Bratislava\'s public transit network.',
       url: 'https://mhdle.matejmacula.com',
       repoUrl: 'https://github.com/bohmatej/csia',
